@@ -2,12 +2,14 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import Home from './components/Home'
 import Work from './components/Work'
+import Skills from './components/Skills'
 
 const App = () => {
   return (
     <div className='relative'>
       <Navbar />
       <Home />
+      <Skills />
       <Work />
       <section id="story" className="h-screen bg-gray-800 text-white flex items-center justify-center">
         <h1 className="text-5xl">Story Section</h1>
