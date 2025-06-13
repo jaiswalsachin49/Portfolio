@@ -44,8 +44,9 @@ export default function Skills() {
     };
 
     const item = {
-        hidden: { opacity: 0, y: 40 },
-        visible: { opacity: 1, y: 0 },
+        hidden: { opacity: 0},
+        transition: { duration: 0.5, ease: "easeInOut" },
+        visible: { opacity: 1},
     }
 
     return (
@@ -66,7 +67,7 @@ export default function Skills() {
                 <motion.div
                 key={index}
                 variants={item}
-                className="group relative flex flex-col items-center justify-start p-8 bg-white border border-gray-300 rounded-xl shadow-md transition-all duration-500 hover:scale-105 hover:border-blue-500"
+                className="group relative flex flex-col items-center justify-start p-8 bg-white border hover:border-2  rounded-xl shadow-md transition-all duration-500 hover:scale-105 hover:border-gray-400"
                 >
                 <div className="flex items-center justify-center w-20 h-20 mb-6 rounded-full bg-blue-50 transition-transform duration-300 group-hover:scale-110 group-hover:-translate-y-1">
                     <img

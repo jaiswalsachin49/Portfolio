@@ -6,7 +6,7 @@ const Navbar = () => {
 
   return (
     <div className="fixed backdrop-blur-sm rounded-4xl top-1 left-0 w-full z-50 flex justify-center">
-      <nav className="flex backdrop-blur px-4 py-3 bg-black bg-opacity-70 rounded-4xl max-w-7xl justify-center text-white sm:w-[60%] md:w-[50%] lg:w-[40%] xl:w-[25%]">
+      <nav className="flex backdrop-blur px-4 py-3 bg-black bg-opacity-70 rounded-4xl max-w-7xl justify-center text-white sm:w-[60%] md:w-[55%] lg:w-[40%] xl:w-[25%]">
         <ul className="flex gap-5 items-center justify-between w-full">
           <li>
             <a href="#home" aria-label="Home">
@@ -22,7 +22,6 @@ const Navbar = () => {
             <a href="#skills" className="hover:text-blue-400">Skills</a>
             <a href="#works" className="hover:text-blue-400">Works</a>
             <a href="#story" className="hover:text-blue-400">Story</a>
-            <a href="#chat" className="hover:text-blue-400">Chat</a>
           </li>
           <li>
             <a
