@@ -26,7 +26,7 @@ export default function Work() {
                 </a>
             </div>
 
-            <p className="text-2xl md:text-4xl text-gray-500 leading-tight relative z-10 pt-6 px-[4vw]">
+            <p className="text-2xl md:text-4xl text-gray-500 leading-tight relative z-10 pt-6 px-[4vw] outfit-font">
                 Zooper is a platform to stream your favourite movies and series.
                 <br /> Built with React.js and Tailwind CSS for a seamless, responsive
                 experience.
@@ -63,7 +63,7 @@ export default function Work() {
                 </a>
             </div>
 
-            <p className="text-2xl md:text-4xl text-gray-500 leading-tight relative z-10 pt-6 px-[4vw]">
+            <p className="text-2xl md:text-4xl text-gray-500 leading-tight relative z-10 pt-6 px-[4vw] outfit-font">
                 Chef Claude is a recipe app that helps you find delicious recipes.
                 <br /> Built with React.js, it offers a user-friendly interface
                 for cooking enthusiasts.
@@ -100,7 +100,7 @@ export default function Work() {
                 </a>
             </div>
 
-            <p className="text-2xl md:text-4xl text-gray-500 leading-tight relative z-10 pt-6 px-[4vw]">
+            <p className="text-2xl md:text-4xl text-gray-500 leading-tight relative z-10 pt-6 px-[4vw] outfit-font">
                 Pro Connect is a professional networking platform that help in searching jobs.
                 <br /> Built with React.js, it provides a seamless experience for
                 networking and collaboration.

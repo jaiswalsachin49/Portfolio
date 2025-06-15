@@ -52,7 +52,7 @@ export default function Skills() {
     return (
         <section id="skills" className="text-black">
         <div className="flex flex-col items-center w-full bg-[radial-gradient(circle,rgba(33,160,243,1)_35%,rgba(255,255,255,1)_96%)] px-6 pt-32 pb-20">
-            <h1 className="text-6xl leading-none font-black text-black whitespace-nowrap mb-15">
+            <h1 className="text-7xl leading-none font-black text-black whitespace-nowrap mb-15">
             SKILLS
             </h1>
 
@@ -67,7 +67,7 @@ export default function Skills() {
                 <motion.div
                 key={index}
                 variants={item}
-                className="group relative flex flex-col items-center justify-start p-8 bg-white border hover:border-2  rounded-xl shadow-md transition-all duration-500 hover:scale-105 hover:border-gray-400"
+                className="group relative flex flex-col items-center justify-start p-8 bg-white border hover:border-2  rounded-xl shadow-md transition-all duration-500 hover:scale-105 hover:border-gray-400 outfit-font"
                 >
                 <div className="flex items-center justify-center w-20 h-20 mb-6 rounded-full bg-blue-50 transition-transform duration-300 group-hover:scale-110 group-hover:-translate-y-1">
                     <img

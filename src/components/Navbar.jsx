@@ -18,7 +18,7 @@ const Navbar = () => {
               />
             </a>
           </li>
-          <li className="flex items-center gap-5">
+          <li className="flex items-center gap-5 outfit-font">
             <a href="#skills" className="hover:text-blue-400">Skills</a>
             <a href="#works" className="hover:text-blue-400">Works</a>
             <a href="#story" className="hover:text-blue-400">Story</a>

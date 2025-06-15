@@ -8,7 +8,7 @@ const Footer = () => {
     const [isSHover, setIsSHover] = useState(false);
 
     return (
-        <div className="flex justify-between items-center w-full px-[3vw] pb-8">
+        <div className="flex justify-between items-center w-full px-[3vw] pb-8 outfit-font">
 
         <a
             href="mailto:sj586997@gmail.com"

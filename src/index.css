@@ -1,4 +1,10 @@
 @import "tailwindcss";
-html {
+html{
   scroll-behavior: smooth;
-  }
+}
+.outfit-font{
+  font-family: 'Outfit', sans-serif;
+}
+.syne-font{
+  font-family: 'Syne', sans-serif;
+}

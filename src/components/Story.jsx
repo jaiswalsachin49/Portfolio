@@ -13,7 +13,7 @@ export default function Story() {
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: "easeOut", delay: 0.4 }}
-            className="text-xl md:text-2xl text-gray-500 leading-10 w-[50%] mb-10 mt-20 "
+            className="text-xl md:text-2xl text-gray-500 leading-10 w-[50%] mb-10 mt-20 outfit-font"
             >
             Growing up far from the world of code, I never imagined technology
             would one day become my canvas. From school days filled with cricket
