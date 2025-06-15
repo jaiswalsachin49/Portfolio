@@ -29,7 +29,7 @@ const SpotifyEmbed = () => {
 
     return (
         <motion.div
-        className="mb-8 rounded-2xl overflow-hidden shadow-lg cursor-pointer h-[152px] mx-[3vw]"
+        className="mb-8 rounded-2xl overflow-hidden shadow-lg cursor-pointer h-[152px] mx-[3vw] bg-black"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         whileHover={{ boxShadow: '0px 10px 30px rgba(33, 160, 243, 0.3)' }}
