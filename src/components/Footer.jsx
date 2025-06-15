@@ -18,7 +18,7 @@ const Footer = () => {
             Sachin Jaiswal
         </a>
 
-        <div className="flex gap-6">
+        <div className="flex justify-center items-center">
         <motion.div
             onHoverStart={() => setIsTHover(true)}
             onHoverEnd={() => setIsTHover(false)}
