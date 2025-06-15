@@ -5,6 +5,7 @@ import Work from './components/Work'
 import Skills from './components/Skills'
 import Story from './components/Story'
 import Footer from './components/Footer'
+import SpotifyEmbed from './components/Spotify'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Skills />
       <Work />
       <Story />
+      <SpotifyEmbed />
       <Footer />
     </div>
   )
