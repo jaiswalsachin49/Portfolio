@@ -5,7 +5,7 @@ const Navbar = () => {
 
 
   return (
-    <div className="fixed backdrop-blur-sm rounded-4xl top-1 left-0 w-full z-50 flex justify-center">
+    <div className="fixed backdrop-blur-sm rounded-4xl top-1 left-0 w-screen z-50 flex justify-center">
       <nav className="flex backdrop-blur px-4 py-3 bg-black bg-opacity-70 rounded-4xl max-w-7xl justify-center text-white sm:w-[60%] md:w-[55%] lg:w-[40%] xl:w-[25%]">
         <ul className="flex gap-5 items-center justify-between w-full">
           <li>

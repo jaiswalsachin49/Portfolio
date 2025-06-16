@@ -5,7 +5,7 @@ export default function Work() {
     return (
         <section id="works" className="text-black flex justify-center">
         <div className="flex flex-col items-center w-full pt-30">
-            <motion.h1 className="text-7xl leading-none font-black text-black whitespace-nowrap">
+            <motion.h1 className="text-4xl md:text-6xl xl:text-7xl 2xl:text-7xl leading-none font-black text-wrap text-black whitespace-nowrap">
             MY LATEST WORK
             </motion.h1>
 
@@ -32,16 +32,16 @@ export default function Work() {
                 experience.
             </p>
 
-            <div className="flex justify-center items-center gap-50 relative z-10 -top-20">
+            <div className="flex justify-center items-center gap-10 relative z-10 mt-8">
                 <img
-                src="/zooper1.jpeg"
+                src="/zooper1.png"
                 alt="Zooper Screenshot"
-                className="w-100 rounded-2xl shadow-lg transform transition-transform duration-500 ease-in-out rotate-[265deg] group-hover:rotate-270 group-hover:border-8 group-hover:border-white group-hover:shadow-2xl"
+                className="w-170 h-auto rounded-2xl shadow-lg transform transition-transform duration-500 ease-in-out rotate-[-5deg] group-hover:rotate-0 group-hover:border-8 group-hover:border-white group-hover:shadow-2xl"
                 />
                 <img
                 src="/zooper2.jpeg"
                 alt="Zooper Screenshot"
-                className="w-150 h-auto rounded-2xl shadow-lg transform transition-transform duration-500 ease-in-out rotate-[5deg] group-hover:rotate-0 group-hover:border-8 group-hover:border-white group-hover:shadow-2xl"
+                className="w-170 h-auto rounded-2xl shadow-lg transform transition-transform duration-500 ease-in-out rotate-[5deg] group-hover:rotate-0 group-hover:border-8 group-hover:border-white group-hover:shadow-2xl"
                 />
             </div>
             </motion.div>

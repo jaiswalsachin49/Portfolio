@@ -7,7 +7,7 @@ export default function Home() {
             <img
                 src="/Krishna_Black.png"  
                 alt="Krishna Background"
-                className="absolute top-0 left-0 w-full object-cover opacity-100 z-10"
+                className="absolute w-full top-0 h-full lg:h-auto xl:h-auto 2xl:h-auto object-cover opacity-100 z-10"
             />
 
             <div className="flex flex-col justify-end items-start w-[100vw] h-screen bg-[radial-gradient(circle,rgba(33,160,243,1)_35%,rgba(255,255,255,1)_96%)] px-[3vw] relative z-0">

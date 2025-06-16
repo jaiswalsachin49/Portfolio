@@ -4,16 +4,16 @@ import { motion } from "framer-motion";
 export default function Story() {
     return (
         <section id="story" className="text-black p-[3vw]">
-        <div className="flex flex-col items-start w-full bg-[radial-gradient(circle,rgba(33,160,243,1)_35%,rgba(255,255,255,1)_96%)] px-9 py-20 rounded-lg">
-            <h1 className="text-6xl leading-15 font-black text-black whitespace-nowrap mb-15">
-            Not a Legacy Coder, Just a Curious Kid <br /> Who Never Stopped Clicking
+        <div className="w-full bg-[radial-gradient(circle,rgba(33,160,243,1)_35%,rgba(255,255,255,1)_96%)] px-9 py-20 rounded-lg">
+            <h1 className="text-4xl md:text-6xl xl:text-7xl 2xl:text-7xl font-black text-black xl:mb-15 2xl:mb-15 md:leading-15 xl:leading-20 2xl:leading-20">
+            Not a Legacy Coder, Just a Curious Kid Who Never Stopped Clicking
             </h1>
 
             <motion.p
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: "easeOut", delay: 0.4 }}
-            className="text-xl md:text-2xl text-gray-500 leading-10 w-[50%] mb-10 mt-20 outfit-font"
+            className="text-xl md:text-2xl xl:text-2xl 2xl:text-2xl text-gray-500 leading-10 w-[100%] md:w-[50%] xl:w-[50%] 2xl:w-[50%] mb-10 mt-10 md:mt-20 xl:mt-20 2xl:mt-20 outfit-font"
             >
             Growing up far from the world of code, I never imagined technology
             would one day become my canvas. From school days filled with cricket

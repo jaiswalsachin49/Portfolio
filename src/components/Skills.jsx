@@ -51,8 +51,8 @@ export default function Skills() {
 
     return (
         <section id="skills" className="text-black">
-        <div className="flex flex-col items-center w-full bg-[radial-gradient(circle,rgba(33,160,243,1)_35%,rgba(255,255,255,1)_96%)] px-6 pt-32 pb-20">
-            <h1 className="text-7xl leading-none font-black text-black whitespace-nowrap mb-15">
+        <div className="flex flex-col min-h-screen items-center w-full bg-[radial-gradient(circle,rgba(33,160,243,1)_35%,rgba(255,255,255,1)_96%)] px-6 pt-32 pb-20">
+            <h1 className="text-4xl md:text-6xl xl:text-7xl 2xl:text-7xl  leading-none font-black text-black whitespace-nowrap mb-15">
             SKILLS
             </h1>
 
