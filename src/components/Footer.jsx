@@ -6,9 +6,11 @@ const Footer = () => {
     const [isGHover, setIsGHover] = useState(false);
     const [isLHover, setIsLHover] = useState(false);
     const [isSHover, setIsSHover] = useState(false);
+    const [isCodeHover, setIsCodeHover] = useState(false);
+    const [isLeetHover, setIsLeetHover] = useState(false);
 
     return (
-        <div className="flex justify-between items-center w-full px-[3vw] pb-8 outfit-font">
+        <div className="flex flex-col md:flex-row xl:flex-row 2xl:flex-row justify-between items-center w-full px-[3vw] pb-8 outfit-font">
 
         <a
             href="mailto:sj586997@gmail.com"
@@ -140,6 +142,68 @@ const Footer = () => {
                 transition={{ duration: 0.25 }}
             >
                 Spotify
+            </motion.span>
+            </a>
+        </motion.div>
+        <motion.div
+            onHoverStart={() => setIsLeetHover(true)}
+            onHoverEnd={() => setIsLeetHover(false)}
+            className="flex flex-col items-center cursor-pointer"
+            whileHover={{ y: -5 }}
+            transition={{ type: 'spring', stiffness: 250 }}
+        >
+            <a
+            href="https://leetcode.com/u/jaiswalsachin_49/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex flex-col items-center"
+            >
+            <motion.img
+                src="/leetcode.png"
+                alt="LeetCode"
+                className="w-10 transition-transform"
+                whileHover={{ scale: 1.05 }}
+                animate={{ rotate: isLeetHover ? 25 : -5 }}
+                duration={0.3}
+            />
+            <motion.span
+                className="text-sm font-medium mt-1"
+                initial={{ opacity: 0, y: 5 }}
+                animate={{ opacity: isLeetHover ? 1 : 0, y: isLeetHover ? 0 : 5 }}
+                transition={{ duration: 0.25 }}
+            >
+                LeetCode
+            </motion.span>
+            </a>
+        </motion.div>
+        <motion.div
+            onHoverStart={() => setIsCodeHover(true)}
+            onHoverEnd={() => setIsCodeHover(false)}
+            className="flex flex-col items-center cursor-pointer"
+            whileHover={{ y: -5 }}
+            transition={{ type: 'spring', stiffness: 250 }}
+        >
+            <a
+            href="https://codeforces.com/profile/jaiswalsachin_49"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex flex-col items-center"
+            >
+            <motion.img
+                src="/codeforces.png"
+                alt="Codeforces"
+                className="w-10 transition-transform"
+                whileHover={{ scale: 1.05 }}
+                animate={{ rotate: isCodeHover ? 25 : -5 }}
+                duration={0.3}
+            />
+            <motion.span
+                className="text-sm font-medium mt-1"
+                initial={{ opacity: 0, y: 5 }}
+                animate={{ opacity: isCodeHover ? 1 : 0, y: isCodeHover ? 0 : 5 }}
+                transition={{ duration: 0.25 }}
+            >
+                Codeforces
             </motion.span>
             </a>
         </motion.div>
