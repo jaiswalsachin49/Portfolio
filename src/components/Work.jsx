@@ -32,16 +32,16 @@ export default function Work() {
                 experience.
             </p>
 
-            <div className="flex justify-center items-center gap-10 relative z-10 mt-8">
+            <div className="flex justify-center items-center gap-10 mt-8">
                 <img
                 src="/zooper1.png"
                 alt="Zooper Screenshot"
-                className="w-170 h-auto rounded-2xl shadow-lg transform transition-transform duration-500 ease-in-out rotate-[-5deg] group-hover:rotate-0 group-hover:border-8 group-hover:border-white group-hover:shadow-2xl"
+                className="w-170 h-auto rounded-2xl shadow-lg transform transition-transform duration-500 ease-in-out rotate-[0deg] group-hover:-rotate-5 group-hover:border-8 group-hover:border-white group-hover:shadow-2xl group-hover:scale-115"
                 />
                 <img
                 src="/zooper2.jpeg"
                 alt="Zooper Screenshot"
-                className="w-170 h-auto rounded-2xl shadow-lg transform transition-transform duration-500 ease-in-out rotate-[5deg] group-hover:rotate-0 group-hover:border-8 group-hover:border-white group-hover:shadow-2xl"
+                className="w-170 h-auto rounded-2xl shadow-lg transform transition-transform duration-500 ease-in-out rotate-[0deg] group-hover:rotate-5 group-hover:border-8 group-hover:border-white group-hover:shadow-2xl group-hover:scale-115"
                 />
             </div>
             </motion.div>
@@ -69,16 +69,16 @@ export default function Work() {
                 for cooking enthusiasts.
             </p>
 
-            <div className="flex justify-center items-center gap-10 relative z-10 mt-8">
+            <div className="flex justify-center items-center gap-10 mt-8">
                 <img
                 src="/chef_claude1.png"
                 alt="Chef Screenshot"
-                className="w-170 rounded-2xl shadow-lg transform transition-transform duration-500 ease-in-out rotate-[-5deg] group-hover:rotate-0 group-hover:border-8 group-hover:border-white group-hover:shadow-2xl"
+                className="w-170 h-auto rounded-2xl shadow-lg transform transition-transform duration-500 ease-in-out rotate-[0deg] group-hover:-rotate-5 group-hover:border-8 group-hover:border-white group-hover:shadow-2xl group-hover:scale-115"
                 />
                 <img
                 src="/chef_claude2.png"
                 alt="Chef Screenshot"
-                className="w-170 h-auto rounded-2xl shadow-lg transform transition-transform duration-500 ease-in-out rotate-[5deg] group-hover:rotate-0 group-hover:border-8 group-hover:border-white group-hover:shadow-2xl"
+                className="w-170 h-auto rounded-2xl shadow-lg transform transition-transform duration-500 ease-in-out rotate-[0deg] group-hover:rotate-5 group-hover:border-8 group-hover:border-white group-hover:shadow-2xl group-hover:scale-115"
                 />
             </div>
             </motion.div>
@@ -106,16 +106,16 @@ export default function Work() {
                 networking and collaboration.
             </p>
 
-            <div className="flex justify-center items-center gap-10 relative z-10 mt-8">
+            <div className="flex justify-center items-center gap-10 mt-8">
                 <img
                 src="/proconnect2.png"
                 alt="Screenshot"
-                className="w-170 rounded-2xl shadow-lg transform transition-transform duration-500 ease-in-out rotate-[-5deg] group-hover:rotate-0 group-hover:border-8 group-hover:border-white group-hover:shadow-2xl"
+                className="w-170 rounded-2xl shadow-lg transform transition-transform duration-500 ease-in-out rotate-[0deg] group-hover:-rotate-5 group-hover:border-8 group-hover:border-white group-hover:shadow-2xl group-hover:scale-115"
                 />
                 <img
                 src="/proconnect1.png"
                 alt="Screenshot"
-                className="w-170 h-auto rounded-2xl shadow-lg transform transition-transform duration-500 ease-in-out rotate-[5deg] group-hover:rotate-0 group-hover:border-8 group-hover:border-white group-hover:shadow-2xl"
+                className="w-170 h-auto rounded-2xl shadow-lg transform transition-transform duration-500 ease-in-out rotate-[0deg] group-hover:rotate-5 group-hover:border-8 group-hover:border-white group-hover:shadow-2xl group-hover:scale-115"
                 />
             </div>
             </motion.div>
