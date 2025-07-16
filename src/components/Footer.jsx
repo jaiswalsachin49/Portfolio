@@ -8,6 +8,7 @@ const Footer = () => {
     const [isSHover, setIsSHover] = useState(false);
     const [isCodeHover, setIsCodeHover] = useState(false);
     const [isLeetHover, setIsLeetHover] = useState(false);
+    const [isCodolioHover, setIsCodolioHover] = useState(false);
 
     return (
         <div className="flex flex-col md:flex-row xl:flex-row 2xl:flex-row justify-between items-center w-full px-[3vw] pb-8 outfit-font">
@@ -204,6 +205,37 @@ const Footer = () => {
                 transition={{ duration: 0.25 }}
             >
                 Codeforces
+            </motion.span>
+            </a>
+        </motion.div>
+        <motion.div
+            onHoverStart={() => setIsCodolioHover(true)}
+            onHoverEnd={() => setIsCodolioHover(false)}
+            className="flex flex-col items-center cursor-pointer"
+            whileHover={{ y: -5 }}
+            transition={{ type: 'spring', stiffness: 250 }}
+        >
+            <a
+            href="https://codolio.com/profile/jaiswalsachin_49"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex flex-col items-center"
+            >
+            <motion.img
+                src="/codolio.png"
+                alt="Codolio"
+                className="w-12 transition-transform"
+                whileHover={{ scale: 1.05 }}
+                animate={{ rotate: isCodolioHover ? 25 : -5 }}
+                duration={0.3} 
+            />
+            <motion.span
+                className="text-sm font-medium mt-1"
+                initial={{ opacity: 0, y: 5 }}
+                animate={{ opacity: isCodolioHover ? 1 : 0, y: isCodolioHover ? 0 : 5 }}
+                transition={{ duration: 0.25 }}
+            >
+                Codolio
             </motion.span>
             </a>
         </motion.div>
