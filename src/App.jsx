@@ -15,7 +15,7 @@ const App = () => {
       <Skills />
       <Work />
       <Story />
-      <SpotifyEmbed />
+      {/* <SpotifyEmbed /> */}
       <Footer />
     </div>
   )
