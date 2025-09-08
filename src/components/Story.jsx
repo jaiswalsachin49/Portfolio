@@ -8,7 +8,7 @@ export default function Story() {
             <h1 className="text-4xl md:text-6xl xl:text-7xl 2xl:text-7xl font-black text-black xl:mb-15 2xl:mb-15 md:leading-15 xl:leading-20 2xl:leading-20">
             Not a Legacy Coder, Just a Curious Kid Who Never Stopped Clicking
             </h1>
-
+            <div className="flex flex-col md:flex-row xl:flex-row 2xl:flex-row items-center justify-center">
             <motion.p
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
@@ -24,6 +24,8 @@ export default function Story() {
             these small wins with my true friends and family, who cheered for every
             line of code that finally worked. This is just the start of my story.
             </motion.p>
+            <motion.img src="/profileCard.png" className="md:w-[20%] xl-[20%] rounded-lg ml-10 mt-10 md:mt-20 xl:mt-20 2xl:mt-20" />
+            </div>
         </div>
         </section>
     );
