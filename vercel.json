@@ -1,0 +1,15 @@
+{
+    "redirects": [
+        {
+            "source": "/(.*)",
+            "has": [
+                {
+                    "type": "host",
+                    "value": "portfolio-sachin49.vercel.app"
+                }
+            ],
+            "destination": "https://portfoliosachin49.vercel.app/$1",
+            "permanent": true
+        }
+    ]
+}
